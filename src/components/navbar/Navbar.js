@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Hamburger, Logo, Menu, MenuLink, Nav } from "./NavbarStyle";
+import { Nav, Logo, Hamburger, Menu, MenuLink } from "./NavbarStyle";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,22 +7,25 @@ const Navbar = () => {
   return (
     <Nav>
       <Logo to="/">
-        <i>{"<KHN&LION/>"}</i> <span>recipe</span>
+        <i>{"<Khan>"}</i> <span>recipe</span>
       </Logo>
+
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
         <span />
         <span />
         <span />
       </Hamburger>
+
       <Menu isOpen={isOpen}>
         <MenuLink to="/about">About</MenuLink>
         <MenuLink
           to={{ pathname: "https://github.com/kaanarslan1990" }}
           target="_blank"
-          rel="noopener noreferrer"
-        >Github
+          rel = "noopener noreferrer"
+        >
+          GitHub
         </MenuLink>
-        <MenuLink to="/login">Logout</MenuLink>
+        <MenuLink to="login">Logout</MenuLink>
       </Menu>
     </Nav>
   );
