@@ -8,8 +8,10 @@ import { MainContainer, HomeImg, ImgDiv } from "./HomeStyle";
 
 
 const mealTypes = ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"];
-const APP_ID = "c3f3f55c";
-const APP_KEY = "ee77380aa43aefc3422590845187ae78";
+const APP_ID = process.env.REACT_APP_APP_ID;
+const APP_KEY = process.env.REACT_APP_APP_KEY;
+
+
 
 
 const Home = () => {
