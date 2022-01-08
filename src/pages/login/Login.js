@@ -21,7 +21,7 @@ const Login = ({ setIsAuth }) => {
     <LoginContainer>
       <FormContainer>
         <StyledImg src={mealSvg} alt="meal" />
-        <Header>{'<Khan/>'} Recipe</Header>
+        <Header>{'<Khan Chief/>'} Recipe</Header>
         <StyledForm onSubmit={handleSubmit}>
           <StyledInput type="text" placeholder="Username" required />
           <StyledInput type="password" placeholder="Password" required />

@@ -1,11 +1,10 @@
-import "./App.css";
-// import Navbar from "./components/navbar/Navbar";
+import React from "react";
+
+
+import './App.css';
 import AppRouter from "./router/AppRouter";
 
-const App = () => {
-  return (
-    <AppRouter />
-  );
-};
-
+function App() {
+  return <AppRouter />
+}
 export default App;

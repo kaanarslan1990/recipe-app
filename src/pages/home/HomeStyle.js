@@ -4,9 +4,9 @@ export const MainContainer = styled.div`
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  /* background: #E1F1DD; */
+  background: #E1F1DD; 
   height: fit-content;
-  /* padding: 5px; */
+  padding: 5px; 
 `;
 export const RecipeCard = styled.div`
   height: 300px;

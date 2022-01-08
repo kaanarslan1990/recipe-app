@@ -8,10 +8,12 @@ import {
   OtherPart,
 } from "./DetailsStyle";
 import dietSvg from "../../assets/diet.svg";
+
 const Details = (props) => {
   console.log('props:', props);
   // console.log(props.location.recipe);
   const recipe = props.location.recipe;
+  
   return (
     <DetailContainer>
       <HeaderContainer>
