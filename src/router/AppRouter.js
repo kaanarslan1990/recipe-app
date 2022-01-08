@@ -11,7 +11,7 @@ function AppRouter() {
   const AuthContainer = () => (   
     <div>
       <Navbar />
-      <PrivateRouter isAuth={isAuth} exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+      <PrivateRouter isAuth={isAuth} exact path="/" component={Home} />
       <PrivateRouter isAuth={isAuth} path="/about" component={About} />
       <PrivateRouter isAuth={isAuth} path="/details" component={Detail} />
     </div>
