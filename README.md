@@ -1,6 +1,3 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
-
 # Project Recipe App 
 
 ## Description
@@ -15,7 +12,7 @@ Project aims to create a Recipe App.
 
 ## Expected Outcome
 
-![Recipe App Snapshot](recipe-app.gif)
+![Recipe App Snapshot](./src/assets/Capture.PNG)
 
 ## Objective
 
