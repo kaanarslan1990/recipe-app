@@ -32,7 +32,4 @@ Build a Recipe App using ReactJS.
 
 - use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
-
-
-
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
