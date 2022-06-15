@@ -14,8 +14,8 @@ const About = () => {
             <h1>I'm Kaan.</h1>
             <h2>I’m currently learning Full-Stack Development Languages.</h2>
             <h2>
-              I've already known JS, ReactJS, ReactNative, NodeJS, MongoDB,SQL,
-              Python, AWS Services.
+              I've already known JS, ReactJS, MongoDB,SQL,
+              Python and Django.
             </h2>
             <h2>
               <a href="mailto:kaanarslan1990@gmail.com">Send email</a> :
